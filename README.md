@@ -30,13 +30,22 @@
 
       cd m1 && npx nodemon
 
+  ## Проверить функционал
 
+  с помощью postman или подобного инструмента  отправить запрос 
+  
+  ### GET
+  
+  ```http://localhost:5555/api/get-products```
 
+  ### POST
+  
+  ```http://localhost:5555/api/create-product```
 
-
-
-
-
-
-
-
+  
+  (body, raw, json)
+  
+  {
+  "name": "new product",
+	"price": 100
+  }
